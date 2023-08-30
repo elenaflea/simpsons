@@ -18,28 +18,26 @@
             
                 console.log(data.simpsons)
                 let userPerso = sessionStorage.getItem("personnage")
-                console.log(userPerso)
+
+                document.querySelector("#name").innerHTML = "No info about " + userPerso.toUpperCase()
+                document.querySelector("#age").innerHTML = ""
+                document.querySelector("#hair").innerHTML = ""
+                document.querySelector("#parent").innerHTML = ""
+
                 if (userPerso){
                     let newSimpsonsArray = [...data.simpsons]
                     console.log(newSimpsonsArray)
 
                    for (i=0; i<15; i++) {
-                    
+ 
                    if (userPerso.toUpperCase() === newSimpsonsArray[i].name) {
-                    console.log(newSimpsonsArray[i].name)
+                        console.log(newSimpsonsArray[i].name)
                         document.querySelector("#name").innerHTML = data.simpsons[i].name
                         document.querySelector("#age").innerHTML = "Age : " + data.simpsons[i].age
                         document.querySelector("#hair").innerHTML = "Hair : " + data.simpsons[i].hair
                         document.querySelector("#parent").innerHTML = "Parents : " + data.simpsons[i].parent
                    }
-                   else {
-                    document.querySelector("#name").innerHTML = "No information about " + userPerso.toUpperCase()
-                    document.querySelector("#age").innerHTML = ""
-                    document.querySelector("#hair").innerHTML = ""
-                    document.querySelector("#parent").innerHTML = ""
-            }
                    }
-
                     }
                 
    
