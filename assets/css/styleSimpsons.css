@@ -96,3 +96,9 @@ h1, h2, h3{
       transform: rotate(359deg);
     }
   }
+ 
+  @media all and (max-width: 420px) {
+    .block{
+        width:100%;
+    }
+  }
