@@ -36,8 +36,10 @@
                         document.querySelector("#age").innerHTML = "Age : " + data.simpsons[i].age
                         document.querySelector("#hair").innerHTML = "Hair : " + data.simpsons[i].hair
                         document.querySelector("#parent").innerHTML = "Parents : " + data.simpsons[i].parent
+                        document.querySelector("#ava").setAttribute("src", data.simpsons[i].icon)
                    }
                    }
+
                     }
                 
    
