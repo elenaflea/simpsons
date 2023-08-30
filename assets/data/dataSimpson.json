@@ -23,7 +23,7 @@
         "parent":["Homer","Marge"], 
         "hair":"black", 
         "checked":true ,
-        "icon":"assets/img/maggie.jpg"
+        "icon":"assets/img/maggie.png"
 },
 
 	{ 
