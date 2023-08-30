@@ -80,7 +80,14 @@ h1, h2, h3{
 .btnModif:hover{
     background-color: #8EAC50;
 }
-
+.info{
+    background-color: #F0DE36;
+    padding: 15px;
+    border-radius: 20px;
+    width: 70%;
+    align-self: center;
+    margin: auto;
+}
 @keyframes rotation {
     from {
       transform: rotate(0deg);

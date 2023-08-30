@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIMPSONS</title>
     <link rel="stylesheet" href="/assets/css/styleSimpsons.css">
+    <link rel="icon" href="/assets/css/fav.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,12 +20,16 @@
             <h2>The Simpsons </h2>
            <button id="start" onclick="start()" class="btn btnCta">START</button>
            <br><br>
-           <button id="modif" onclick="modif()" class="btn btnModif">CHANGE</button>
+           <button id="modif" onclick="start()" class="btn btnModif">CHANGE</button>
             <p>You choosed : <span id="usersChoice"></span> </p>
             <br>
-            <p id="name"></p>
-            <p id="age"></p>
-            <p id="parent"></p>
+            <div class="info">
+                <p id="name"></p>
+                <p id="age"></p>
+                <p id="hair"></p>
+                <p id="parent"></p>
+            </div>
+            
             
 
         </div>
