@@ -37,6 +37,11 @@ body{
 .logo path {
     fill:url(#mygradient);
 }
+.ava{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
 h1, h2, h3{
    color: #4C4C6D;
 }
