@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-image: url(../img/simppattern.jpg);
+    background-position: center;
+    background-size: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#gradient{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  }
+
+  hr {
+    width: 90%;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    /*-webkit-text-fill-color: #4158D0;*/
+    color: #fff;
+    align-self: center;
+    margin: 20px;
+    animation: rotation 10s infinite linear;
+}
+
+.logoSimpsons{ 
+    align-self: center;
+    margin: 30px;
+}
+.logo path {
+    fill:url(#mygradient);
+}
+h1, h2, h3{
+   color: #4C4C6D;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width:420px;
+    align-self: center;
+    background-color: #F0DE36;
+    min-height: 100vh;
+}
+.container{
+    background-color: #fff;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 100%;
+    min-height: 85vh;
+}
+.btn{
+    border:none;
+    padding: 15px;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btnCta{
+    background-color: #FFC436;
+}
+.btnCta:hover{
+    background-color: #FFA41B;
+}
+
+.btnModif{
+    background-color: #D3D04F;
+}
+.btnModif:hover{
+    background-color: #8EAC50;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

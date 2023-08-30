@@ -1,0 +1,19 @@
+{
+    "users" : [
+    { 
+        "nom":"LISA", 
+        "age":10, 
+        "ville" : "Springfield"
+    },
+    { 
+        "nom":"BART", 
+        "age":12, 
+        "ville" : "Springfield"
+    },
+    { 
+        "nom":"MAGGIE", 
+        "age":2, 
+        "ville" : "Springfield"
+    }
+    ]
+}
